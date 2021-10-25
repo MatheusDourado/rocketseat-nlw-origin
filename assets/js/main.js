@@ -21,7 +21,7 @@ function mudanca_links_redes_sociais() {
 mudanca_links_redes_sociais()
 
 
-function buscar_dados_github_perfil() {
+window.onload = function buscar_dados_github_perfil() {
     const url = `https://api.github.com/users/${links_redes_socias.github}`
     
     fetch(url)
@@ -34,4 +34,4 @@ function buscar_dados_github_perfil() {
             document.getElementsByClassName('container')[0].children[2].children[0].textContent = dados.bio
         })
 }
-buscar_dados_github_perfil()
+// buscar_dados_github_perfil()
