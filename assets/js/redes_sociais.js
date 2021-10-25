@@ -14,7 +14,7 @@ function showMeSomething(variavel_parametro) { // ===> Nome da variavel do param
 showMeSomething(links_redes_socias.instagram) // ===> Variavel do parametro recebendo valor
 */
 
-function mudanca_links_redes_sociais() {
+window.onload = function mudanca_links_redes_sociais() {
     // document.getElementById('nome_usuario').textContent = "teste 2"     // ===> Acessando o id na DOM é mudando o texto com .textContent
     // nome_usuario.textContent = "teste 3"    // ===> mesma coisa do document.getElementById()
 
@@ -26,7 +26,8 @@ function mudanca_links_redes_sociais() {
             const social = li.getAttribute('class')
             li.children[0].href = `https://wa.me/${links_redes_socias[social]}`
         }
+        console.log(li)
     }
 }
 
-mudanca_links_redes_sociais()
+// mudanca_links_redes_sociais()
