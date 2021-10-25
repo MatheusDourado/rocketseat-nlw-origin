@@ -1,0 +1,19 @@
+
+// ↓↓↓↓↓    Função recebendo "variavel_parametro" e utilizando dentro da função 
+function showMeSomething(variavel_parametro) { 
+    alert("Meu instagram é " + "@" + variavel_parametro)
+}
+
+// ↓↓↓↓↓    variavel_parametro recebendo valor de um objeto declarado anteriormente
+showMeSomething(links_redes_socias.instagram) 
+
+
+
+
+
+
+// ↓↓↓↓↓    Acessando o id na DOM é mudando o texto com .textContent
+document.getElementById('nome_usuario').textContent = "teste 2"     
+
+// ↓↓↓↓↓↓   Mesma coisa do document.getElementById()
+nome_usuario.textContent = "teste 3"    
