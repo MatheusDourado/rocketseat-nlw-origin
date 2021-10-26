@@ -32,8 +32,13 @@ html, body {
 
 main {
     width: 25%;
-    height: 70%;
+    min-height: 80vh;
     border-radius: 2.5%;
+    background-image: url(../../images/icones/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 38%;
+
     background-color: var(--background-color);
     box-shadow: 20px 20px 500px rgb(10, 130, 199);
 }
