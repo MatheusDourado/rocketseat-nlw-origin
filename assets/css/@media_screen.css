@@ -2,8 +2,9 @@
 /* EXTRA SMALL */
 @media screen and (max-width: 575px) {
     main {
-        width: 60% ;
-        height: 70% ;
+        width: 60%;
+        min-height: 70%;
+        display: flex;
     }
     h1 {
         font-size: 1.3rem ;
@@ -45,8 +46,8 @@
 @media screen and (min-width: 768px) {
     main {
         width: 40% ;
-        height: 75%;
-        min-height: 75%;
+        min-height: 80%;
+        max-height: 90%;
     }
     h1 {
         font-size: 1.6rem ;
@@ -68,8 +69,8 @@
 @media screen and (min-width: 992px) {
     main {
         width: 35% ;
-        height: 75%;
-        min-height: 75%;
+        min-height: 80%;
+        max-height: 90%;
     }
     h1 {
         font-size: 1.8rem ;
@@ -83,7 +84,7 @@
     }
     .avatar {
         transform: scale(0.90);
-        top: -2rem ;
+        top: -1rem ;
     }
     ul img {
         width: 1.8rem ;
@@ -93,8 +94,7 @@
 @media screen and (min-width: 1200px) {
     main {
         width: 30% ;
-        height: 85%;
-        min-height: 75%;
+        height: 75%;
     }
     h1 {
         font-size: 2rem ;
@@ -108,7 +108,7 @@
     }
     .avatar {
         transform: scale(1);
-        top: -0.5rem ;
+        top: 1rem ;
     }
     ul img {
         width: 2rem ;
